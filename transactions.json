@@ -1,0 +1,19 @@
+{
+  "transactions": [
+    {
+      "id": "e1fd",
+      "date": "2026-03-01",
+      "description": "Salary",
+      "credit": 50000,
+      "debit": 0
+    },
+    {
+      "id": "b624",
+      "date": "2026-03-02",
+      "description": "Medicines",
+      "credit": 0,
+      "debit": 2000
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

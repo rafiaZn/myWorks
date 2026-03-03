@@ -1,0 +1,13 @@
+body {
+  background-color: #f5f6fa;
+}
+
+table input {
+  width: 100%;
+  border: none;
+  background: transparent;
+}
+
+table input:focus {
+  outline: none;
+}
