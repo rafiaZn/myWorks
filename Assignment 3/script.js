@@ -7,8 +7,8 @@ function addTransaction() {
 
   let date = document.getElementById("date").value
   let header = document.getElementById("header").value
-  let credit = parseFloat(document.getElementById("credit").value) || 0
-  let debit = parseFloat(document.getElementById("debit").value) || 0
+  let credit = parseFloat(document.getElementById("credit").value) || ""
+  let debit = parseFloat(document.getElementById("debit").value) || ""
 
   if (!date || !header) {
     alert("Date and Header required")
